@@ -1,6 +1,6 @@
 export type Alignment = 'start' | 'end';
 export type Side = 'top' | 'right' | 'bottom' | 'left';
-export type AlignedPlacement = `${Side}-${Alignment}`;
+export type AlignedPlacement = 'top-start' | 'top-end' | 'right-start' | 'right-end' | 'bottom-start' | 'bottom-end' | 'left-start' | 'left-end';
 export type Placement = Side | AlignedPlacement;
 export type Strategy = 'absolute' | 'fixed';
 export type Axis = 'x' | 'y';
